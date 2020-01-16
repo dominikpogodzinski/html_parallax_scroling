@@ -1,0 +1,149 @@
+html {
+    height: 100%;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: Roboto, sans-serif;
+    height: 100%;
+}
+
+#header {
+    background-color: #1968B9;
+    padding: 10px 50px;
+}
+
+#logo {
+    font-weight: 700;
+    color: #fff;
+    margin: 0;
+    font-size: 34px;
+}
+
+#header nav {
+    float: right;
+    margin-right: -20px;
+}
+
+#header nav a {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+}
+
+#footer {
+    max-height: 30px;
+    background-color: #46494F;
+    color: #fff;
+    padding: 25px 50px;
+    font-size: 14px;
+    text-align: center;
+}
+
+#footer nav{
+    text-align: right;
+}
+
+#footer a{
+    margin-right: 5px;
+}
+
+/* .parallax-slider{
+    font-size: 25px;
+    color: white;
+} */
+
+/* .parallax-slider-photo{
+    font-size: 25px;
+    color: white;
+} */
+
+.parallax-window {
+	min-height: 700px;
+	background: transparent;
+}
+
+section.image {
+    height: 700px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section.text {
+    max-width: 1170px;
+    padding: 20px;
+    padding: 20px 0;
+    position: relative;
+}
+
+section.text .container {
+    max-width: 1170px;
+    padding: 20px 20px;
+    position: relative;
+    margin: 0 auto;
+}
+
+section.text .icon {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 50%;
+    bottom: 0;
+}
+
+section.text.left .icon {
+    right: 0;
+    left: 50%;
+}
+
+section.text .icon .fa {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 200px;
+}
+
+section.text .icon .far{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 200px;
+}
+
+section.text .icon .fas {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.icon {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size: 200px;
+}
+
+section.text .content {
+    margin-left: 50%;
+    color: #505050;
+}
+
+section.text.left .content {
+    margin-left: 0;
+    margin-right: 50%;
+}
+
+section.text h2 {
+    font-size: 36px;
+    font-weight: normal;
+    color: #505050;
+}

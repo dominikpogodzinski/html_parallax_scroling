@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>dpcard</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900&amp;subset=latin-ext">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        <script src='all.js'></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header id="header">
+            <nav>
+                <a href="#bio-content">About me</a>
+                <a href="#technology-content">Technology stack</a>
+                <a href="#hobby-content">Hobby</a>
+                <a href="#footer">Contact</a>
+            </nav>
+            <h1 id="logo">Dominik</h1>
+        </header>
+        <div class="parallax-window" data-parallax="scroll" data-image-src="img/computer.jpg"></div>
+        <!-- <div class="parallax-text">
+            <div class="parallax-slider">
+              <span style="position:absolute; top: 150px; left: 425px;">Welcome to my show page</span>
+            </div>
+        </div> -->
+        <section class="text">
+            <div class="container">
+                <div class="icon">
+                    <div class="far fa-address-card"></div>
+                </div>
+                <div class="content">
+                    <a id="bio-content"></a>
+                    <h2>About me</h2>
+                    <p>Ok, let`s do it. My name is Dominik and I live in Gdańsk. I was born so long ago that I remember recording games from the radio on a cassette :). I`ve always had technical interests. Not only in computer direction but for example in motorcycles mechanics. I like to do something out of nothing:)</p>
+                    <p> After school I decided to go to the army. There, I did a lot good (unnecessary) work. Another task I set to myself was working with the client in the biggest motorcycle company in Poland ! And here i did to a lot of work, but in this case it was realy helpfull.
+                    It was so good then I decided with my boss to open my own shop with motorcycle parts. However I was moore needed at home and I gave up this project. I also work in several other interesting places, but I will tell it on another occasion... :). </p>
+                    <p>If I put it together, I can see that I have a lot of skills. From customer services to finding a solutions to my task. I know how to motivate i support people in my environment. I`m quickly find new contacts in new place.  If I connect that with new posibilities I`m become a very efficient tool.</p>
+                </div>
+            </div>
+        </section>
+        <div class="parallax-window" data-parallax="scroll" data-image-src="img/mobile-devices.jpg"></div>
+        <section class="text left">
+            <div class="container">
+                <div class="icon">
+                    <div class="fas fa-laptop-code"></div>
+                </div>
+                <div class="content">
+                    <a id="technology-content"></a>
+                    <h2>Technology stack</h2>
+                    <p>My main programming language is PYTHON (written in Pycharm) with support Django framework. I know also base of java sript(writtne in Visual Studio Code), but when it come to Front-end I know better Html and css (even if that`s not a programming language :).<p>
+                    <p>For version control system I`m using <a href='https://github.com/dominikpogodzinski' target="_blank" >Github</a>, but I know also Gitlab. For plan, track and support I`m moving in Trello and Jira. When you need to do graphic documentation I`m using yED. </p>
+                    <p>I know how to create and process relational database - SQL (Workbench) and non-relations database - NoSql (MongoDb). I have also base knowledge about protocol HTTP</p>
+                    <p>I have known the Windows environment since I was a 12 years, but I have been using Linux for 3 years. So I have no resistance to using terminal :)</p>
+                    <p>Obviously if I have too learn new program or other programming language and you will give me some time I`ll do it. You know how it`s work :).</p>
+                </div>
+            </div>
+        </section>
+        <div class="parallax-window" data-parallax="scroll" data-image-src="img/programmer.jpg"></div>
+        <section class="text">
+            <div class="container">
+                <div class="icon">
+                    <div class="fas fa-gamepad"></div>
+                </div>
+                <div class="content">
+                    <a id="hobby-content"></a>
+                    <h2>Hobby</h2>
+                    <p>This is the most dificult part of this site. I`m person with wide horizons. I`m interested in everything that surrounds me and I like to learn the mechanics of action. Becasue in every step we see new technologies I had to understand that. And so I started programming </p>
+                    <p>Meanwhile I was start play on the guitar (because we have sometimes do something for soul :)). So it has remained so far...</p>
+                    <p>Everyday i`m train about 45 min. My training have three parts. First part is training of my fingers. Their flexibility and speed of playing. Second part is for music theory and hearing training. At last I can play some song or improvisation for example to blues backing track.</p>
+                    <p>But who knows what will interest me in the future.</p>
+                </div>
+            </div>
+        </section>
+        <div class="parallax-window" data-parallax="scroll" data-image-src="img/photo.jpg"></div>
+        <footer id="footer">
+            <a href="tel:690-335-059"><img src="icon/old-typical-phone.png" width="35px" height="35px"><a href="mailto:dominikpogodzinski@wp.pl"><img src="icon/mail.png" margin-right="50px" width="35px" height="35px"><a href="https://www.linkedin.com/in/dominik-pogodzi%C5%84ski-a02a6b18a/"><img src="icon/linkedin.png" width="35px" height="35px"></a>
+            <nav> &copy;2020 Dominik Pogodziński</nav>
+        </footer>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="parallax.min.js"></script>
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <script>
+            window.sr = ScrollReveal();
+            sr.reveal('.icon', {
+                reset: true,
+                delay: 300,
+                distance: 0
+            });
+            sr.reveal('h2, p', {
+                reset: true,
+                delay: 300
+            });
+        </script>
+    </body>
+</html> 
